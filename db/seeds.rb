@@ -14,7 +14,7 @@ User.reset_pk_sequence
 Memory.reset_pk_sequence
 Note.reset_pk_sequence
 
-#a random note
+#a second note 
 
 user_1 = User.create!(username:"Daisy", password_digest:"12345", avatar:"https://images.dog.ceo/breeds/terrier-border/n02093754_6089.jpg", bio: "Just living life in my memory", city:"New York", state:"New York", zipcode:11423)
 
