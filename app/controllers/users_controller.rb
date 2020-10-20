@@ -1,4 +1,5 @@
 class UsersController < ApplicationController
+    before_action :authorized, only: [:keep_logged_in]
 
     def index
         users= User.all 
