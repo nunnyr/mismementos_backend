@@ -40,7 +40,7 @@ class UsersController < ApplicationController
 
 
     def keep_logged_in
-        @user exists here because of the before action 
+        #@user exists here because of the before action 
         token_user = encode_token({user_id: @user.id})
         
         render json: {

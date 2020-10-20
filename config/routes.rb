@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   resources :notes
   resources :memories
-  resources :users, only: [:create]
+  resources :users, only: [:index, :create]
   #the above handles the user signing up 
 
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
