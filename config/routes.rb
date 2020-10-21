@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   resources :notes
-  resources :memories
+  resources :memories, only: [:create]
   resources :users, only: [:index, :create]
   #the above handles the user signing up 
 
@@ -10,6 +10,8 @@ Rails.application.routes.draw do
   post "/users", to: "users#create"
   get "/users/keep_logged_in", to: "users#keep_logged_in"
 
+
+ 
 
 
 
