@@ -14,7 +14,11 @@ class ApplicationController < ActionController::API
             token = auth_header
 
             begin
+<<<<<<< HEAD
                 JWT.decode(token, 'op3n_s3sam3', true, algorithm:'HS256')
+=======
+                JWT.decode(token, 'op3n_s3sam3', true, algorithm: 'HS256')
+>>>>>>> c26c69ccdce324ecc7cbba86ec9775bdf50bfe87
             rescue JWT::DecodeError
                 nil   
             end 
