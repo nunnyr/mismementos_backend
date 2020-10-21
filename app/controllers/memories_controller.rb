@@ -1,8 +1,20 @@
 class MemoriesController < ApplicationController
- before_action :authorized, only: [:create]
+ before_action :authorized, only: [:show, :create, :destroy]
 
+    def show
+        memories=@user.memories.find(params[:id])
+        render json: memories
+    end
+ 
+ 
     def create
         memories = @user.memories.create(memory_params) 
+        render json: memories
+    end
+
+    def destroy
+        memories=@user.memories.find(params[:id])
+        memories.destroy
         render json: memories
     end
 

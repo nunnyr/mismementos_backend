@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   resources :notes
-  resources :memories, only: [:create]
+  resources :memories
   resources :users, only: [:index, :create]
   #the above handles the user signing up 
 
