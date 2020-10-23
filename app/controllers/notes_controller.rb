@@ -6,6 +6,13 @@ class NotesController < ApplicationController
         render json: note
     end
 
+    def destroy
+      notes=Note.find(params[:id])
+      notes.destroy
+      render json: notes
+    end
+
+  
     private
 
     def notes_params
