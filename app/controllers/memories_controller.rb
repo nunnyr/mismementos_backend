@@ -12,6 +12,12 @@ class MemoriesController < ApplicationController
         render json: memories
     end
 
+    def update
+        memories=Memory.find(params[:id])
+        memories.update(memory_params)
+        render json: memories
+    end
+
     def destroy
         memories=Memory.find(params[:id])
         memories.destroy
