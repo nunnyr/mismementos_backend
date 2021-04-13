@@ -21,11 +21,13 @@ To use our fullstack app, users will open their terminal and run the following c
 
 For the backend it is crucial that you first bundle install. Next steps:
 
-rails db:create
-rails db:migrate
-rails db:seed
-rails s
+- rails db:create
+- rails db:migrate
+- rails db:seed
+- rails s
 To run the frontend repo
+- npm install
+- npm start
 
 Have the rails server running on "localhost:3000"
 
