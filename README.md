@@ -40,8 +40,30 @@ Bootstrap
 jQuery
 
 ## Contributors
-- Nunny Reyes
-- Kalkidan Taye
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/nunnyr">
+        <img src="https://avatars2.githubusercontent.com/u/22527547?s=460&u=ad9c2d830938168f717cd28941b2f104c6677598&v=4" width="200px;" alt=""/><br/><sub><b>Nunny Reyes</b></sub>
+      </a><br />
+      <a href="https://github.com/wlcreate/Mod1_Restaurant_Reservation_App" title="Code">👩🏻‍💻</a> 
+      <a href="https://github.com/wlcreate/Mod1_Restaurant_Reservation_App" title="Documentation">📚</a> 
+      <a href="#ideas-nunny" title="Ideas, Planning, & Feedback">🌎</a>            
+    </td>
+
+  <td align="center">
+      <a href="https://github.com/wlcreate">
+        <img src="https://avatars.githubusercontent.com/u/57603757?v=4" width="200px;" alt=""/><br/><sub><b>Kalkidan Taye</b></sub>
+      </a><br />
+      <a href="https://github.com/wlcreate/Mod1_Restaurant_Reservation_App" title="Code">👩🏻‍💻</a> 
+      <a href="https://github.com/wlcreate/Mod1_Restaurant_Reservation_App" title="Documentation">📚</a> 
+      <a href="#ideas-waverley" title="Ideas, Planning, & Feedback">💡</a>            
+    </td>
+
+
+  </tr>
+</table>
+
 
 ## Next Steps
 We would like ouy map to include other logos and images for memories.  
