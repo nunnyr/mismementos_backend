@@ -2,12 +2,12 @@
 
 ## Mis Mementos
 ## Table of Contents
-About
-Features
-Getting Started
-Stack
-Contributors
-Next Steps
+- About
+- Features
+- Getting Started
+- Stack
+- Contributors
+- Next Steps
 
 ## About
 
