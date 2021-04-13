@@ -66,15 +66,15 @@ jQuery
 
 
 ## Next Steps
-We would like ouy map to include other logos and images for memories.  
+- We would like ouy map to include other logos and images for memories.  
 
-Work on making this model accessible using accessibility tools.
+- Work on making this model accessible using accessibility tools.
 
-Incorporate additional models.
+- Incorporate additional models.
 
-Create rspec files to test our fullstack model.
+- Create rspec files to test our fullstack model.
 
-Add more validations for forms.
+- Add more validations for forms.
 
 ## Acknowledgements
 We would like to thank:
