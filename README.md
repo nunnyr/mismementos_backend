@@ -38,8 +38,8 @@ Bootstrap
 jQuery
 
 ## Contributors
-Nunny Reyes
-Kalkidan Taye
+- Nunny Reyes
+- Kalkidan Taye
 
 ## Next Steps
 We would like ouy map to include other logos and images for memories.  
