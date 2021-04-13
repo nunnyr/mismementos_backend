@@ -57,7 +57,7 @@ Add more validations for forms.
 ## Acknowledgements
 We would like to thank:
 
-Eric Kim
-Sylwia Vargas
-Annie Zheng
-Isabel K. Lee
+- Eric Kim
+- Sylwia Vargas
+- Annie Zheng
+- Isabel K. Lee
